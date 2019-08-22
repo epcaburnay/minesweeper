@@ -53,7 +53,7 @@ class Minesweeper:
             _ = system('cls')
 
     def check_input(self, coord_name):
-        coord = input(f"Input {coord_name} coordinate from 0 to 10: ")
+        coord = input(f"Input {coord_name} coordinate from 0 to 9: ")
         try:
             coord = int(coord)
         except ValueError:
